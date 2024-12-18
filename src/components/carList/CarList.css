@@ -1,0 +1,55 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+  }
+  
+  .car-item {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .car-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .car-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .car-item-content {
+    padding: 15px;
+  }
+  
+  .car-item h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #2c3e50;
+  }
+  
+  .car-item p {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    margin-bottom: 15px;
+  }
+  
+  .car-item a {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .car-item a:hover {
+    background-color: #2980b9;
+  }
